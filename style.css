@@ -13,14 +13,10 @@ body {
 }
 nav {
   background-color: #a07346;
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   width: 100%;
   box-shadow: 0 2px 4px black;
   padding-block: 10px;
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
 }
 
@@ -30,8 +26,6 @@ nav {
 
 .navbar-links ul li {
   list-style: none;
-  /* display: inline-block;
-  padding-inline: 10px; */
 }
 nav div.navbar-brand {
   font-weight: bolder;
@@ -51,23 +45,6 @@ nav ul li a:hover {
 .navbar-links ul li:first-child {
   margin-inline-start: 7%;
 }
-/* nav ul li a:last-child {
-  margin-inline-end: 1.05rem;
-}
-
-nav ul li.navbar-brand {
-  margin-left: 0;
-}
-
-nav ul > a {
-  margin-inline: 0.7%;
-  color: black;
-}
-
-/*nav ul > a i {
-  margin-inline: 3px;
-  clear: both;
-} */
 
 nav div.right {
   margin-left: auto;
@@ -83,11 +60,6 @@ button {
   border-radius: 5px;
   background-color: #a07346;
   color: black;
-  /* position: relative;
-  left: 7%; */
-  /* margin-inline: 3px;
-  margin-top: -5px;
-  float: right; */
 }
 
 button:hover {
@@ -104,10 +76,6 @@ button.signup {
 button:first-child {
   margin-inline-start: 20px;
 }
-
-/* span.right {
-  align-content: flex-end;
-} */
 
 button.navbar-toggle {
   font-size: large;
@@ -163,22 +131,4 @@ button.navbar-toggle {
     margin-left: auto;
     margin-inline: 2px;
   }
-  .responsive span.icon {
-    float: left;
-    /* position: relative;
-    right: 2rem; */
-  }
 }
-
-/* @media screen and (max-width: 969px) {
-  nav ul li a.responsive {
-    display: flex;
-  }
-  nav ul > a.responsive {
-    display: flex;
-  }
-  button.login.responsive,
-  button.signup.responsive {
-    display: flex;
-  }
-} */
